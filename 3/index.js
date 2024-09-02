@@ -20,7 +20,7 @@ function generateQuote() {
     }
 
     while (true) {
-        const randomIdx = Math.floor(Math.random() = quotes.length)
+        const randomIdx = Math.floor(Math.random() * quotes.length)
 
         if (usedIndexes.has(randomIdx)) continue
 
